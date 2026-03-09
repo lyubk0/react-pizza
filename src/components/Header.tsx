@@ -101,11 +101,7 @@ const Header: React.FC = () => {
                   <span>{totalCount}</span>
                 </div>
               </Link>
-              <div onClick={onCLickProfile} ref={userRef} className="nav">
-                <img className="userImg" src="/img/user.svg" alt="" />
-                <span>Профиль</span>
-                {isOpen ? <User /> : ""}
-              </div>
+            
             </>
           )}
         </div>
